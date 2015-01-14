@@ -1,0 +1,353 @@
+/** {
+	outline: 1px solid red;
+}*/
+/*CSS Reset*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {		
+	margin: 0 auto;
+	/*background-color: green;*/
+}
+
+	#top{
+		display: block;
+		/*background-color: yellow;*/
+		width: 960px;
+	}
+
+	#title{
+		display: inline-block;
+		margin-right: 50px;
+	}
+
+		div#title h2 {
+			color: white;
+			text-align: center;
+		}
+
+	#company-name{
+		display: inline-block;
+		vertical-align: top;
+		/*background-color: red;*/
+	}
+
+		#logo{  /* TOP LEFT stream image (must refer source in html) */
+		    display: inline-block;
+		    height: 100px;
+			width: 100px;
+		}
+
+			.gray-word {
+				color: gray;
+				display: inline-block;
+				font-size: 40px;
+				margin-left: 5px;
+				/*position: relative;*/
+				
+			}
+
+			.blue-word { /* only class worked in html, not id. stop using id */
+				color: blue;
+				display: inline-block;
+				font-family: arial;
+				font-size: 40px;			
+			}
+
+	.nav {
+		background-color: red; 
+	    color: #B8B8B8;
+	    background-color: #F8F8F8;
+	    width: 370px;
+	 	height: 20px;
+	    font-size: 13px;
+	    padding: 2px;  /*space around content(words)*/
+		background: linear-gradient(white, #D8D8D8);
+		display: inline-block;/*this in both makes element s horizontal*/
+		vertical-align: top;
+		text-align: center;
+		position: relative;
+		margin-left: 40px;
+
+	}
+
+		/* remove hyperlink for nav */
+		div.nav a{
+			text-decoration: none;
+			color: #A8A8A8;
+		}
+
+		button#login-button {
+			background-color: #3399FF;
+		    width: 70px;
+		    height: 20px;
+		    font-size: 13px; 
+		    color: white;
+			text-align: center;
+			padding-bottom: 3px;
+		    border: 1px;
+		    vertical-align: top;
+		    display: inline-block; 
+		    position: absolute;
+		    margin-left: 50px;
+		    text-align: center;
+		}
+
+	#second-top-bar{
+		display: inline-block;
+		background-color: #3366CC;
+		height: 30px;
+		width: 960px;
+		padding-left: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: white;
+	}
+
+	#left{
+		display:inline-block;
+		/*background-color: orange;*/
+		width: 250px;
+		height: 800px;
+		vertical-align: top;
+	}
+
+		.sidebar1 {
+			/*background-color: red;*/
+			width: 250px;
+			height: 100%;
+			border-color: yellow;
+		}
+
+			div.sidebar1 img#boxImage {
+				/*background-size: 250px 300px;*/
+				display: block;
+				background-repeat: no-repeat;
+			}
+
+			/*setting background image*/
+			div#background {
+				background: url("left_content_ad.png");
+				position: relative;
+				height: 100%;
+				width: 100%;
+				background-repeat: no-repeat;
+			}
+
+			h4.box-image {
+				color: #3366CC;
+				padding: 1px;
+				margin-left: 10px;
+			}
+
+			h3.box-image-letters {
+				padding: 1px;
+			}
+
+			h5.boximage-letters {
+				margin-left: 10px;
+				margin-top: 10px;
+			}
+
+			h5#graded-button {
+				color: white;
+				background-color: #003399;
+				padding-left: 20px;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-right: 20px;
+				width: 58%;
+				border-radius: 10px;
+				margin-left: 7px;
+				margin-top: 10px;
+			}
+
+			h5#graded-button a:visited {
+				text-decoration: none;
+				color: white;
+			}
+
+			.remove-links {
+				text-decoration: none;
+			}
+
+			#sidebar1Color {
+				color: #0066CC;
+			}
+
+			#sbColor2 {
+				color: #FF9933;
+			}
+
+				h5#sbColor2 {
+					margin-top: 10px;
+				}
+
+			#getStarted {
+				margin-top: 5px;
+				color: black;
+
+			}
+
+			h3#demoButton {
+				margin-top: 15px;
+				background-color: #3366CC;
+				height: 35px;
+				padding-left: 40px;
+				padding-top: 5px;
+				color: white;
+				border-radius: 5px;
+			}
+
+			h3#trialButton {
+				background-color: #FF6633;
+				height: 25px;
+				margin-top: 10px;
+				padding-left: 65px;
+				padding-top: 5px;
+				color: white;
+				border-radius: 5px;
+			}
+
+			h5#noCredit {
+				margin-left: 35px;
+				margin-top: 10px;
+			}
+
+			div.sidebar1 hr {
+				color: #D0D0D0;
+				padding-top: 5px;
+			}
+
+	#right{
+		display: inline-block;
+		width: 710px;
+		height: 800px;
+		vertical-align: top;
+		/*background-color: blue;*/
+	}
+
+		#right-title {
+			display: inline-block;
+			width: 710px;
+			/*height: 200px;*/
+			vertical-align: top;
+			/*background-color: purple;*/
+		}
+
+			#left-title {
+				display: inline-block;
+				width: 420px;
+				vertical-align: top;
+				/*background-color: navy;*/
+				color: #0066CC;
+			}
+
+				#home-button-image {
+					display: inline-block;
+				}
+
+				h3#ppc {
+					display: inline-block;
+				}
+
+			#phone-title {
+				display: inline-block;
+				width: 250px;
+				vertical-align: top;
+				/*background-color: black;*/
+			}
+
+				#phone-image {
+					display: inline-block;
+					width: 10%;
+					vertical-align: top;
+					/*background-color: orange;*/
+					padding-left: 5px;
+				}
+
+				#phone-number {
+					display: inline-block;
+					width: 78%;
+					vertical-align: top;
+					/*background-color: #666633;*/
+				}
+
+					h6.phone-color {
+						color: gray;
+					}
+
+					h2#phone-color {
+						color: #3366FF;
+					}
+
+		#body-ppc-stuff {
+			display: inline-block;
+			width: 680px;
+			height: 350px;
+			vertical-align: top;
+			/*background-color: #990000;*/
+			line-height: 25px;
+		}
+
+			.heading-color {
+				color: #3366CC;
+			}
+
+			.lists {
+				margin-left: 20px;
+			}
+
+		#box-section-with-border {
+			display: inline-block;
+			width: 650px;
+			height: 180px;
+			vertical-align: top;
+			/*background-color: #FF6600; */
+			border: 5px solid #0066CC;
+		}
+
+			#flag-image {
+				display: inline-block;
+			}
+			
+			#flag-content {
+				display: inline-block;
+				width: 500px;
+				margin: 5px; 
+			}
+
+			#getstart-button {
+				border-right: 10px;
+				border-left: 10px;
+				width: 220px;
+				height: 40px;
+				margin-left: 100px;
+				margin-top: 30px;
+				border: 2px solid silver;
+				background-color: #669900;
+				border-radius: 10px;
+				color: white;
+				padding-top: 12px;
+				padding-left: 40px;
+
+			}
+
+		#final-paragraph {
+			display: inline-block;
+			width: 680px;
+			height: 100px;
+			/*vertical-align: top;*/
+			background-color: white;
+			margin-top: 10px;
+			
+		}
+
+		#final-sentences {
+			margin-top: 20px;
+			line-height: 20px;
+		}
+
+
